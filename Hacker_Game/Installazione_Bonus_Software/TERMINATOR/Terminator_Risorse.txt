@@ -1,0 +1,8 @@
+https://gnometerminator.blogspot.com/p/introduction.html
+
+
+sudo add-apt-repository ppa:gnome-terminator
+sudo apt-get update
+sudo apt-get install terminator
+
+https://www.networkworld.com/article/3436784/how-to-use-terminator-on-linux-to-run-multiple-terminals-in-one-window.html

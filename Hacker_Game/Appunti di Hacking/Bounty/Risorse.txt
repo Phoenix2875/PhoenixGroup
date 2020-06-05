@@ -1,0 +1,5 @@
+Upload web.config
+
+https://soroush.secproject.com/blog/2014/07/upload-a-web-config-file-for-fun-profit/
+
+https://poc-server.com/blog/2018/05/22/rce-by-uploading-a-web-config/

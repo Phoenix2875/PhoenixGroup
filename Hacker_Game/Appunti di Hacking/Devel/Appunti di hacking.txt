@@ -1,0 +1,8 @@
+
+
+una volta ottenuto l'accesso si può usare il suggester
+
+da dentro meterpreter si manda in background la sessione:  
+
+meterpreter: background 
+

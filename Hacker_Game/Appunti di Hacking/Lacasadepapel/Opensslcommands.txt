@@ -1,0 +1,3 @@
+richiesta del certificato	openssl req -new -key ca.key -out server.csr
+generazione certificato		openssl x509 -req -days 365 -in phoenix.csr -signkey ca.key -out phoenix.crt
+export in modalità PKCS12	openssl pkcs12 -export -in phoenix.crt -inkey ca.key -out phoenix.p12
